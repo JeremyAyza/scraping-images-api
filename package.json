@@ -1,0 +1,24 @@
+{
+  "name": "scraping-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hono/valibot-validator": "^0.5.2",
+    "@scalar/hono-api-reference": "^0.8.0",
+    "@valibot/to-json-schema": "^1.0.0",
+    "hono": "^4.7.6",
+    "hono-openapi": "^0.4.6",
+    "valibot": "^1.0.0"
+  },
+  "devDependencies": {
+  }
+}
